@@ -9,7 +9,6 @@ import swRegister from './utils/sw-register';
 
 import 'lazysizes';
 import 'lazysizes/plugins/parent-fit/ls.parent-fit';
-import filter from 'lodash.filter';
 
 const app = new App({
   button: document.querySelector('#hamburgerButton'),
