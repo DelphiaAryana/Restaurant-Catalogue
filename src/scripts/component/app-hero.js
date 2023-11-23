@@ -7,8 +7,8 @@ class AppHero extends HTMLElement {
     this.innerHTML = `
         <div class="hero">
             <picture>
-              <source media="(max-width: 600px)" srcset="./images/hero-small.jpg">
-              <img src='./images/hero-large.jpg' alt="hero">
+              <source media="(max-width: 600px)" srcset="./images/hero.jpg">
+              <img src='./images/hero.jpg' alt="hero">
             </picture>
             <div class="hero__inner">
             <h1 class="hero__title">Selamat datang di website kami! Mulailah menjelajahi restoran yang ada di Indonesia.</h1>
