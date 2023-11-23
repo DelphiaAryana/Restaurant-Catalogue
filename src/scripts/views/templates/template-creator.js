@@ -26,7 +26,7 @@ const createCustomerReviewsTemplate = (reviews) => {
 
 const createRestaurantDetailTemplate = (restaurant) => `
   <h2 class="restaurant__title" align="center">${restaurant.name}</h2>
-  <img class="restaurant__poster lazyload" data-src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" />
+  <img class="restaurant__poster lazyload" data-src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" alt="${restaurant.name}" />
   <div class="restaurant__info"><br>
     <h3>Alamat</h3>
     <p>${restaurant.address}</p><br>
